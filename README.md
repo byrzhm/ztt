@@ -38,3 +38,5 @@ python scripts/extract_frames.py videos/捏我脸.mp4
 - [kdhht2334/awesome-SOTA-FER](https://github.com/kdhht2334/awesome-SOTA-FER)
 - [Facial Beauty Prediction](https://paperswithcode.com/task/facial-beauty-prediction)
 - [SCUT-FBP5500-Database-Release](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release)
+- [Image Quality Assessment](https://paperswithcode.com/task/image-quality-assessment)
+- [chaofengc/Awesome-Image-Quality-Assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment)

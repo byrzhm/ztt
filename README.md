@@ -29,3 +29,4 @@ python scripts/extract_frames.py videos/捏我脸.mp4
 ## TODO
 
 - [ ] Integrate FaceRate.ai, an AI tool for evaluating facial attractiveness, to rank the extracted frames. This will involve using the FaceRate.ai API to analyze each frame and assign a score based on facial features.
+- [ ] Automatically identify the emoji that best matches the extracted frame’s portrait and insert it into the frame.

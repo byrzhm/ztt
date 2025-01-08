@@ -20,6 +20,8 @@ pip install -r requirements.txt
 Then, run the following command to extract all the frames from target video, e.g.,
 the following video:
 
+https://github.com/user-attachments/assets/7b1b2f0d-529b-4409-adcd-2d215c9fbe4c
+
 ```bash
 python scripts/extract_frames.py videos/捏我脸.mp4
 ```

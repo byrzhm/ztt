@@ -24,6 +24,11 @@ https://github.com/user-attachments/assets/7b1b2f0d-529b-4409-adcd-2d215c9fbe4c
 
 ```bash
 python scripts/extract_frames.py videos/捏我脸.mp4
+```
+
+Run the following command to generate GIFs based on extracted frames:
+
+```bash
 python scripts/create_gif.py output/捏我脸/捏我脸_{0173..0240}.png --fps 30
 ```
 

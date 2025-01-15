@@ -1,6 +1,6 @@
 <div align="center">
 
-# ZTT Sticker
+# ZTT
 <figure>
         <img src="gallery/0.jpg" alt="missing image" style="width: 300px; height: auto;">
         <figcaption></figcaption>

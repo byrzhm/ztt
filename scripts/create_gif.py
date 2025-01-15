@@ -3,6 +3,16 @@ Example usage:
     - python scripts/create_gif.py plot_*.png
     - python scripts/create_gif.py plot_1.png plot_2.png plot_3.png
     - python scripts/create_gif.py plot_{1..3}.png
+    - png_files=""
+      for i in $(seq 0 2 100); do
+        png_files+="plot_$(printf "%04d" $i).png "
+      done
+      eval python scripts/create_gif.py $png_files
+    - png_files=()
+      for i in $(seq 0 2 100); do
+        png_files+=("plot_$(printf "%04d" $i).png")
+      done
+      python scripts/create_gif.py "${png_files[@]}"
 """
 
 from PIL import Image
@@ -42,4 +52,5 @@ frames[0].save(
     duration=duration,
     loop=0,
 )
-print(f"Created 'output/{output_filename}.gif' with {fps} FPS")
+
+print(f"Created GIF: output/{output_filename}, file size: {os.path.getsize(f'output/{output_filename}') / 1024 / 1024:.2f} MB")

@@ -67,10 +67,10 @@ python scripts/create_gif.py output/捏我脸/捏我脸_{0173..0240}.png --fps 3
 <table>
     <tr>
         <td>
-            <img src="gallery/捏我脸_0000-捏我脸_0085-30fps.gif" alt="GIF 0" width="200">
+            <img src="gallery/捏我脸_0000-捏我脸_0084-10fps.gif" alt="GIF 0" width="200">
         </td>
         <td>
-            <img src="gallery/捏我脸_0086-捏我脸_0143-10fps.gif" alt="GIF 1" width="200">
+            <img src="gallery/捏我脸_0086-捏我脸_0116-10fps.gif" alt="GIF 1" width="200">
         </td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@ python scripts/create_gif.py output/捏我脸/捏我脸_{0173..0240}.png --fps 3
             <img src="gallery/捏我脸_0144-捏我脸_0172-10fps.gif" alt="GIF 2" width="200">
         </td>
         <td>
-            <img src="gallery/捏我脸_0173-捏我脸_0240-20fps.gif" alt="GIF 3" width="200">
+            <img src="gallery/捏我脸_0210-捏我脸_0240-20fps.gif" alt="GIF 3" width="200">
         </td>
     </tr>
 </table>
